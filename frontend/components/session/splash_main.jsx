@@ -4,7 +4,7 @@ export default function SplashMain() {
     return (
         <div className='splash-main'>
            <div className='splash-main-left'>
-                <h1>Investing for Everyone</h1>
+                <h2>Investing for Everyone</h2>
                 <p>Commision-free investing, plus the tools
                 you need to put your money in motion. Sign
                 up and get your first stock for free. Certain

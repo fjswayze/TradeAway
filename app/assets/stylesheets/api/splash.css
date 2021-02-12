@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    padding: 1%;
+    height: 40px;
 }
 
 .log-in{
@@ -23,3 +25,55 @@
     border-radius: 20px;
 }
 
+.splash-main{
+    height: 688px;
+    background-color: #c1f55c;
+    display: flex;
+    border-bottom: 1px solid black;
+    box-shadow:    inset  0px 2px 2px rgba(140, 136, 136, 0.69);
+}
+
+
+.TradeAwayApp {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.splash-main-left{
+    width: 40%;
+    padding: 3%;
+}
+
+.splash-main-left p{
+    font-size: 25px;
+    padding: 5px;
+    line-height: 35px;
+    font-weight: 500; 
+}
+
+.splash-main-left h2 {
+    font-size: 50px;
+    font-weight: 500;
+    width: 300px;
+}
+
+.splash-main-left button{
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    margin-top: 12px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.splash-main-left button:hover{
+    background-color: #000000b0; 
+    cursor: pointer;
+}
