@@ -8,9 +8,9 @@ export default function SplashFooter(){
                 <div>fjswayze@gmail.com</div>
             </div>
             <div className="splash-footer-c2">
-                <a>GitHub</a>
-                <a>LinkedIn</a>
-                <a>Portfolio</a>
+                <a href="https://github.com/fjswayze" target="_blank">GitHub</a>
+                <a href="https://github.com/fjswayze" target="_blank">LinkedIn</a>
+                <a href="https://github.com/fjswayze" target="_blank"> Portfolio</a>
             </div>
         </div>
     )

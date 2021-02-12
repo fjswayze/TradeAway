@@ -14,10 +14,11 @@ export default function SplashMain() {
                 <button>Demo</button>
            </div>
            <div className='splash-main-right'>
-                <div>Phone Image</div>
+                <img className='phone-image' src={window.phoneURL}/> 
            </div>
         </div>
         <div className='splash-main-2'>
+            <div className='splash-main-2-left'>
             <h1>Introducing Fractional Shares
                  <p>Invest in thousands of stocks with as little as $1</p>
             </h1>
@@ -37,10 +38,15 @@ export default function SplashMain() {
                     <p>Trades placed during market hours are executed at that time, 
                         so you’ll always know the share price.</p>
                 </h2>
+                    
+
             </div>
+               
             <div className='disclosure'>
                     Fractional Shares Disclosure
             </div>
+            </div> 
+         <img className='shapes-image' src={window.shapesURL} /> 
         </div>
     </div>
     )
