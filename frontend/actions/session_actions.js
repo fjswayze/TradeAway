@@ -40,7 +40,7 @@ export const logoutAction = () => dispatch => {
 }
 
 export const signupAction = (user) => dispatch => {
-
+    debugger
     return (
         SessionApiUtil.signup(user)
             .then(

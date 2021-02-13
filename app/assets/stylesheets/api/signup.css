@@ -5,54 +5,112 @@
 }
 
 .session{
- width: 60%;
+ width: 58%;
  padding: 3%; 
 }
 
+.session h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 75px;
+}
+
+.session h2{
+    font-weight: 500;
+}
+
+.session p{
+    width: 70%;
+}
+
+.row-1{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
 .session input {
     background-color: #fbfcfd;
     border: none;
     border-radius: 5px;
     padding: 10px; 
-    margin-top: 10px;
-    height: 35px;
+    height: 20px;
+    border: #fbfcfd solid 3px;
 }
 
 .session input:hover {
     background-color: white;
-    border: #fbfcfd solid 3px;
 }
+
+.session input:focus {
+   outline: #30d845 1px solid;
+}
+
+
 
 .short-input{
     width: 150px;
+    padding: 0px;
   
 }
 .long-input{
     width: 400px;
+    margin-bottom: 10px;
 }
 
 .session button{
-    background-color: yellowgreen;
+    background-color: #30d845;
+    font-weight: bold;
     color: white;
     border-radius: 5px;
     width: 150px;
     height: 50px;
     border: none;
+    margin-top: 5px;
+}
+
+.session button:hover{
+    background-color: #29c13c; 
+    
+}
+
+.terms-and{
+    padding-top: 100px;
+    padding-left: 15px;
+}
+.terms-and p{
+    color: lightgray;
+    font-size: 14px;
 }
 
 .copy{
-    height: 100%;
-    width: 40%;
-    background-color: #fbfcfd; 
+    min-height: 800px;
+    width: 43%;
+    padding-top: 170px;
+    background-color: #f7f9fb;
 }
 
 .copy h2{
     font-size: 16px;
     padding-left: 50px; 
+    padding-bottom: 30px;
 }
 
 .copy p {
     font-weight: 400;
     line-height: 25px;
     width: 80%;
+}
+
+.row-5{
+    display: flex;
+}
+
+.row-5 div{
+    padding-left: 15px; 
+    padding-top: 5px;
+}
+
+.log-in-option{
+    color: #29c13c; 
+    cursor: pointer;
 }
