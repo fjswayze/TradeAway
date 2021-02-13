@@ -11,7 +11,6 @@ export default function SignUp(){
     const dispatch = useDispatch(); 
 
     const handleSubmit = (evt) => {
-        debugger
         evt.preventDefault(); 
         dispatch(signupAction({
             first_name: firstName,

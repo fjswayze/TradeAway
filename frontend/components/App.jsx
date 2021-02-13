@@ -1,9 +1,11 @@
 import React from "react";
 import Splash from './session/splash/splash'; 
-import SignUpContainer from './session/signup_container'; 
+import SignUp from './session/signup'; 
+import LogIn from './session/login'; 
 const App = () => (
     <div className='TradeAwayApp'>
-        <SignUpContainer></SignUpContainer>
+        <LogIn></LogIn>
+        {/* <SignUp></SignUp> */}
         {/* <Splash></Splash> */}
     </div>
 );

@@ -1,0 +1,24 @@
+.login-form{
+    display: flex;
+}
+
+.left-side{
+    width: 60%; 
+    overflow: hidden;
+}
+
+.left-side img {    
+  
+    height: 100vh;
+}
+
+.right-side{
+    padding-top: 100px;
+}
+
+.login-form label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+}
