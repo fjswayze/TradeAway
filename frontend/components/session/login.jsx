@@ -24,7 +24,7 @@ export default function login(){
             <div className='right-side'>
                 <h1>Welcome to TradeAway</h1>
                 <form onSubmit={handleSubmit}>
-                    <label>Email or username
+                    <label>Email
                         <input
                         type="text"
                         value={email}
@@ -34,7 +34,7 @@ export default function login(){
                     </label>
                     <label>Password
                         <input
-                        type="text"
+                        type="password"
                         value={password}
                         onChange={e => setPassword(e.currentTarget.value)}
                         >
