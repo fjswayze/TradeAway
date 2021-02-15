@@ -77,3 +77,7 @@
     height: 100px;
     font-size: 14px;
 }
+
+.login-errors{
+    font-weight: 600;
+}

@@ -1,6 +1,9 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import {loginAction} from '../../../actions/session_actions'; 
 
 export default function SplashMain() {
+    const dispatch = useDispatch(); 
     return (
     <div>
         <div className='splash-main'>
@@ -11,7 +14,10 @@ export default function SplashMain() {
                 up and get your first stock for free. Certain
                 limitations apply.
                 </p>
-                <button>Demo</button>
+                <button onClick={() => dispatch(loginAction({
+                    email: 'wealthyman@gmail.com', 
+                    password: 'password343432'
+                }))}>Demo</button>
            </div>
            <div className='splash-main-right'>
                 <img className='phone-image' src={window.phoneURL}/> 

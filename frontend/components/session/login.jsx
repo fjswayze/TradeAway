@@ -1,11 +1,12 @@
 import React, {useState} from 'react'; 
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import {loginAction} from '../../actions/session_actions'; 
 
 export default function login(){
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const dispatch = useDispatch(); 
+    const errors = useSelector(state => state.errors.session); 
     const handleSubmit = (evt) => {
         evt.preventDefault(); 
         dispatch(loginAction({
@@ -13,6 +14,7 @@ export default function login(){
             password: password
         }))
     }
+    
     return(
         <div className='login-form'>
                 <div className="left-side">
@@ -40,6 +42,9 @@ export default function login(){
                         >
                         </input>
                     </label>
+                    <div className='login-errors'>
+                        {errors[0]}
+                    </div>
                     <button
                     type='submit'
                     >Sign In
