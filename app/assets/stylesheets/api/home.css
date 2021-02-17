@@ -1,0 +1,46 @@
+.home{
+    background-color: black;
+    height: 100vh;
+}
+
+.home a {
+    color: white; 
+    font-size: 12px;
+    font-weight: 700;
+    margin: 2px; 
+}
+
+.home button{
+    background-color: black;
+    color: white; 
+    border: black;
+}
+
+.home input{
+    width: 450px;
+    height: 33px;
+    background-color: black;
+    border: 1px solid gray; 
+    color: white; 
+    margin-left: 40px; 
+    margin-top: 5px; 
+    padding-left: 50px;
+}
+
+.home input:hover{
+    background-color: #dcdcdc30;
+}
+
+.home input:focus{
+    outline: none;
+}
+
+.home-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fas .fa-mobile-alt{
+    color: white; 
+}
